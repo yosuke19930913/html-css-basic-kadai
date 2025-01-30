@@ -22,7 +22,7 @@ main{
 
 #parent{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .contents{
@@ -35,8 +35,8 @@ main{
 
  .contents h2{
   font-size: 25px;
-  border:dotted 3px rgb(236, 122, 122);
-  position:relative
+  border-bottom: dotted 3px rgb(236, 122, 122);
+
  }
 
  .contents h2::before{
